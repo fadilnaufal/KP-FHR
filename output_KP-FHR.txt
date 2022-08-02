@@ -1,0 +1,27 @@
+python input_TRISO_08.py
+Cell
+	ID             =	6
+	Name           =
+	Fill           =	1
+	Region         =	-8
+	Rotation       =	None
+	Translation    =	[2.79445558 3.1442783  0.14390208]
+	Volume         =	None
+
+/home/fadilnaufal/.local/lib/python3.8/site-packages/openmc/model/triso.py:1186:
+UserWarning: Close random pack converged before reaching true sphere radius;
+some spheres may overlap. Try reducing contraction rate or packing fraction.
+  warnings.warn('Close random pack converged before reaching true '
+Cell
+	ID             =	310765
+	Name           =
+	Fill           =	31
+	Region         =	-310741
+	Rotation       =	None
+	Translation    =	[ 24.07791958 -32.82138871  77.14681502]
+	Volume         =	None
+
+/home/fadilnaufal/.local/lib/python3.8/site-packages/openmc/model/triso.py:848:
+UserWarning: TRISO particle is partially or completely outside of the lattice.
+  warnings.warn('TRISO particle is partially or completely '
+ 

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <cross_sections>/home/fadilnaufal/OpenMC_CS/endfb80/cross_sections.xml</cross_sections>
+  <material depletable="true" id="1" name="Fuel">
+    <density units="g/cm3" value="10.5" />
+    <nuclide ao="0.046716" name="U235" />
+    <nuclide ao="0.28697" name="U238" />
+    <nuclide ao="0.5" name="O16" />
+    <nuclide ao="0.00184637026" name="C13" />
+    <nuclide ao="0.16482362974" name="C12" />
+  </material>
+  <material id="2" name="Buffer">
+    <density units="g/cm3" value="1.0" />
+    <nuclide ao="0.011078" name="C13" />
+    <nuclide ao="0.988922" name="C12" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="3" name="PyC1">
+    <density units="g/cm3" value="1.9" />
+    <nuclide ao="0.011078" name="C13" />
+    <nuclide ao="0.988922" name="C12" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="4" name="PyC2">
+    <density units="g/cm3" value="1.87" />
+    <nuclide ao="0.011078" name="C13" />
+    <nuclide ao="0.988922" name="C12" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="5" name="SiC">
+    <density units="g/cm3" value="3.2" />
+    <nuclide ao="0.005539" name="C13" />
+    <nuclide ao="0.494461" name="C12" />
+    <nuclide ao="0.4611484" name="Si28" />
+    <nuclide ao="0.0234158" name="Si29" />
+    <nuclide ao="0.0154358" name="Si30" />
+  </material>
+  <material id="6" name="Graphite">
+    <density units="g/cm3" value="1.1995" />
+    <nuclide ao="0.011078" name="C13" />
+    <nuclide ao="0.988922" name="C12" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="7" name="FLiBe">
+    <density units="g/cm3" value="1.2" />
+    <nuclide ao="0.334" name="F19" />
+    <nuclide ao="0.02527137" name="Li6" />
+    <nuclide ao="0.30772863" name="Li7" />
+    <nuclide ao="0.333" name="Be9" />
+  </material>
+  <material id="8" name="SS316">
+    <density units="g/cm3" value="1.2" />
+    <nuclide ao="0.029225" name="Fe54" />
+    <nuclide ao="0.45877" name="Fe56" />
+    <nuclide ao="0.00141" name="Fe58" />
+    <nuclide ao="0.010595" name="Fe57" />
+    <nuclide ao="0.0011078" name="C13" />
+    <nuclide ao="0.0988922" name="C12" />
+    <nuclide ao="0.335156" name="Cr52" />
+    <nuclide ao="0.009460000000000001" name="Cr54" />
+    <nuclide ao="0.017380000000000003" name="Cr50" />
+    <nuclide ao="0.038004" name="Cr53" />
+  </material>
+</materials>
